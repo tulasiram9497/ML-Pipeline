@@ -1,0 +1,6 @@
+task: clustering
+k_values:
+  - 2
+  - 3
+  - 4
+  - 5

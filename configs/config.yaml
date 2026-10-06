@@ -1,0 +1,15 @@
+task: classification
+target: target
+random_state: 42
+test_size: 0.2
+cv:
+  folds: 5
+optimization:
+  enabled: true
+  trials: 10
+models:
+  enabled:
+    - logistic_regression
+    - random_forest
+    - extra_trees
+    - gradient_boosting
